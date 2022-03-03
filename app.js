@@ -5,7 +5,7 @@ require("dotenv").config();
 require("./config/db.config")();
 
 app.use(express.json());
-app.use(cors({ origin: process.env.REACT_APP_URL }));
+// app.use(cors({ origin: process.env.REACT_APP_URL }));
 
 const API_VERSION = "v0";
 
